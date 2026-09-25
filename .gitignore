@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+
+# 本地模型与运行时（按 README 自行下载）
+models/
+llama_cpp/
+
+# 运行数据与个人配置（模板见 *.example.json）
+data/
+config/pet.json
+config/mail.json
+config/news.json
+config/drawer.json
+config/board.json
+
+# 运行时生成
+assets/character/anims/baked/
+assets/wallpapers/

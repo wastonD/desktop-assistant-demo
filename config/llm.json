@@ -1,0 +1,23 @@
+{
+  "provider": "local",
+  "idle_stop_min": 5,
+  "max_tokens": 600,
+  "temperature": 0.7,
+  "providers": {
+    "local": {
+      "type": "local_llama",
+      "model": "models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "server_dir": "llama_cpp",
+      "port": 8765,
+      "ctx": 8192,
+      "ngl": 0,
+      "threads": -1
+    },
+    "bailian": {
+      "type": "openai",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "model": "qwen-plus",
+      "api_key_env": "DASHSCOPE_API_KEY"
+    }
+  }
+}

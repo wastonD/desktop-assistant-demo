@@ -1,0 +1,9 @@
+{
+  "poll_min": 60,
+  "per_feed_limit": 10,
+  "summarize": true,
+  "summarize_limit": 5,
+  "feeds": [
+    {"id": "example", "title": "示例源", "url": "https://example.com/rss.xml", "enabled": true}
+  ]
+}

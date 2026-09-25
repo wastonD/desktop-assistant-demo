@@ -1,0 +1,51 @@
+{
+  "name": "silver-neko",
+  "source_size": [
+    705,
+    1113
+  ],
+  "sit_ratio": 0.642,
+  "layers": {
+    "body": "layers/body.png",
+    "tail": "layers/tail.png",
+    "blink": "layers/blink.png"
+  },
+  "tail_pivot": [
+    595,
+    690
+  ],
+  "tail_bbox": [
+    555,
+    375,
+    705,
+    710
+  ],
+  "tail_amplitude_deg": 4.5,
+  "tail_period_s": 3.5,
+  "blink_interval_s": [
+    3.0,
+    7.0
+  ],
+  "blink_duration_ms": 130,
+  "foot_swing": {
+    "enabled": true,
+    "seed": [
+      60,
+      880
+    ],
+    "x_max": 236,
+    "shin_top": [
+      175,
+      714
+    ],
+    "ankle": [
+      95,
+      835
+    ],
+    "angle_deg": 14,
+    "band": 40,
+    "pad": 40,
+    "frames": 30,
+    "period_s": 1.8
+  }
+}

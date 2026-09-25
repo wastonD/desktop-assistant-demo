@@ -1,0 +1,5 @@
+LIBRARY assistant_tap
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
+    TapHookProc

@@ -1,0 +1,13 @@
+{
+  "poll_min": 5,
+  "recent_count": 10,
+  "notify_new": true,
+  "accounts": [
+    {"id": "me_qq_com", "address": "me@qq.com", "provider": "qq", "name": "", "enabled": true},
+    {"id": "school", "address": "me@e.example.edu", "provider": "office365", "name": "", "enabled": true}
+  ],
+  "oauth": {
+    "microsoft": {"client_id": "", "tenant": "common"},
+    "google": {"client_id": "", "client_secret": ""}
+  }
+}

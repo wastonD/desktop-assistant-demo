@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "_说明": "宠物 v2 动画清单（格式见 app/pet2/anim.py）。坐标均为画布坐标 = 立绘坐标 + (40, 8)。baked/ 下的帧由 tools/bake_home_frames.py 生成（不进 git），程序启动时缺了会自动烘焙。离家片段（stand_up/stand_idle/walk/sit_down/jump/dangle…）素材到位后加在 clips 里即可启用。",
+  "source_size": [
+    773,
+    1121
+  ],
+  "points": {
+    "head_top": [
+      375,
+      48
+    ],
+    "emote_anchor": [
+      480,
+      78
+    ],
+    "seat_center": [
+      441,
+      722.546
+    ]
+  },
+  "clips": {
+    "home_idle": {
+      "frames": "baked/home_idle/{:03d}.png",
+      "count": 54,
+      "fps": 15,
+      "loop": "loop",
+      "anchor": [
+        40,
+        722.546
+      ],
+      "size": [
+        773,
+        1121
+      ],
+      "seated": true,
+      "overlays": {
+        "eyes_closed": {
+          "frames": "baked/home_idle_eyes/{:03d}.png",
+          "box": [
+            307,
+            180,
+            470,
+            276
+          ],
+          "margin": 24
+        }
+      }
+    }
+  }
+}
